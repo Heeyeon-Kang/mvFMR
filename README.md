@@ -1,10 +1,7 @@
-JASA Reproducibility Materials Template
+mvFMR
 ================
 
-This GitHub repository contains a suggested template structure for authors who
-submit to JASA (either Applications and Case Studies or Theory and
-Methods) to include materials to reproduce analyses, visualizations, and
-tables.
+Supplement to "Penalized estimation for a finite mixture of regression models".
 
 We provide this template as a default structure that we (the JASA Associate Editors of Reproducibility) think could be
 useful for many projects, either as is or with modifications by authors.
