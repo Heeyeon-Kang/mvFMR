@@ -23,17 +23,17 @@
 ###       m=2, P=10, K=2        ###
 data_generate <- function(z){
   
-  ## The mixing proportions.
+  ## The mixing proportions ##
   true_pi_ <- vector()
   true_pi_[1] <- 0.5
   true_pi_[2] <- 1 - true_pi_[1]
 
-  ## The variance-covariance matrices of errors.
+  ## The variance-covariance matrices of errors ##
   true_sigma <- list()
   true_sigma[[1]] <- matrix(rep(0.5, 2^2), nrow=2) + 0.5*diag(2)
   true_sigma[[2]] <- matrix(rep(0.5, 2^2), nrow=2) + 0.5*diag(2)
   
-  ## The coefficients matrices of each components.
+  ## The coefficients matrices of each components ##
   true_Bk <- list()
   true_Bk[[1]] <- matrix(c( 1,-1,
                             0, 2,
@@ -84,17 +84,17 @@ data_generate <- function(z){
 ###       m=5, P=10, K=2        ###
 data_generate <- function(z){
   
-  ## The mixing proportions.
+  ## The mixing proportions ##
   true_pi_ <- vector()
   true_pi_[1] <- 0.5
   true_pi_[2] <- 1 - true_pi_[1]
   
-  ## The variance-covariance matrices of errors.
+  ## The variance-covariance matrices of errors ##
   true_sigma <- list()
   true_sigma[[1]] <- matrix(rep(0.5, 5^2), nrow=5) + 0.5*diag(5)
   true_sigma[[2]] <- matrix(rep(0.5, 5^2), nrow=5) + 0.5*diag(5)
   
-  ## The coefficients matrices of each components.
+  ## The coefficients matrices of each components ##
   true_Bk <- list()
   true_Bk[[1]] <- matrix(c( 1,-1, 1, 2,-1,
                             0, 2, 0, 1, 0,
@@ -145,17 +145,17 @@ data_generate <- function(z){
 ###       m=10, P=10, K=2        ###
 data_generate <- function(z){
   
-  ## The mixing proportions.
+  ## The mixing proportions ##
   true_pi_ <- vector()
   true_pi_[1] <- 0.5
   true_pi_[2] <- 1 - true_pi_[1]
   
-  ## The variance-covariance matrices of errors.
+  ## The variance-covariance matrices of errors ##
   true_sigma <- list(matrix(), matrix())
   true_sigma[[1]] <- matrix(rep(0.5, 10^2), nrow=10) + 0.5*diag(10)
   true_sigma[[2]] <- matrix(rep(0.5, 10^2), nrow=10) + 0.5*diag(10)
   
-  ## The coefficients matrices of each components.
+  ## The coefficients matrices of each components ##
   true_Bk <- list(matrix(), matrix())
   true_Bk[[1]] <- matrix(c( 1,-1, 1, 2,-1,-2, 1, 2,-3,-1,
                             0, 2, 0, 1, 0, 0,-3, 0, 1, 0,
@@ -206,17 +206,17 @@ data_generate <- function(z){
 ###       m=2, P=10, K=2        ###
 data_generate <- function(z){
   
-  ## The mixing proportions.
+  ## The mixing proportions ##
   true_pi_ <- vector()
   true_pi_[1] <- 0.5
   true_pi_[2] <- 1 - true_pi_[1]
   
-  ## The variance-covariance matrices of errors.
+  ## The variance-covariance matrices of errors ##
   true_sigma <- list()
   true_sigma[[1]] <- matrix(rep(0.5, 2^2), nrow=2) + 0.5*diag(2)
   true_sigma[[2]] <- matrix(rep(0.5, 2^2), nrow=2) + 0.5*diag(2)
   
-  ## The coefficients matrices of each components.
+  ## The coefficients matrices of each components ##
   true_Bk <- list()
   true_Bk[[1]] <- matrix(c(   1,-0.5,
                            -0.5,   0,
@@ -267,17 +267,17 @@ data_generate <- function(z){
 ###       m=2, P=20, K=2        ###
 data_generate <- function(z){
   
-  ## The mixing proportions.
+  ## The mixing proportions ##
   true_pi_ <- vector()
   true_pi_[1] <- 0.5
   true_pi_[2] <- 1 - true_pi_[1]
   
-  ## The variance-covariance matrices of errors.
+  ## The variance-covariance matrices of errors ##
   true_sigma <- list()
   true_sigma[[1]] <- matrix(rep(0.5, 2^2), nrow=2) + 0.5*diag(2)
   true_sigma[[2]] <- matrix(rep(0.5, 2^2), nrow=2) + 0.5*diag(2)
   
-  ## The coefficients matrices of each components.
+  ## The coefficients matrices of each components ##
   true_Bk <- list()
   zero_mat <- matrix(0, nrow=10, ncol=2)
   true_Bk[[1]] <- matrix(c(   1,-0.5,
@@ -330,17 +330,17 @@ data_generate <- function(z){
 ###       m=2, P=30, K=2        ###
 data_generate <- function(z){
   
-  ## The mixing proportions.
+  ## The mixing proportions ##
   true_pi_ <- vector()
   true_pi_[1] <- 0.5
   true_pi_[2] <- 1 - true_pi_[1]
   
-  ## The variance-covariance matrices of errors.
+  ## The variance-covariance matrices of errors ##
   true_sigma <- list(matrix(), matrix())
   true_sigma[[1]] <- matrix(rep(0.5, 2^2), nrow=2) + 0.5*diag(2)
   true_sigma[[2]] <- matrix(rep(0.5, 2^2), nrow=2) + 0.5*diag(2)
   
-  ## The coefficients matrices of each components.
+  ## The coefficients matrices of each components ##
   true_Bk <- list(matrix(), matrix())
   zero_mat <- matrix(0, nrow=20, ncol=2)
   true_Bk[[1]] <- matrix(c(   1,-0.5,
@@ -393,17 +393,17 @@ data_generate <- function(z){
 ###       m=2, P=10, K=2        ###
 data_generate <- function(z){
   
-  ## The mixing proportions.
+  ## The mixing proportions ##
   true_pi_ <- vector()
   true_pi_[1] <- 0.5
   true_pi_[2] <- 1 - true_pi_[1]
   
-  ## The variance-covariance matrices of errors.
+  ## The variance-covariance matrices of errors ##
   true_sigma <- list()
   true_sigma[[1]] <- matrix(rep(0.5, 2^2), nrow=2) + 0.5*diag(2)
   true_sigma[[2]] <- matrix(rep(0.5, 2^2), nrow=2) + 0.5*diag(2)
   
-  ## The coefficients matrices of each components.
+  ## The coefficients matrices of each components ##
   true_Bk <- list()
   true_Bk[[1]] <- matrix(c(-5, 2,
                             2,-4,
@@ -454,21 +454,21 @@ data_generate <- function(z){
 ###       m=2, P=10, K=4        ###
 data_generate <- function(z){
   
-  ## The mixing proportions.
+  ## The mixing proportions ##
   true_pi_ <- vector()
   true_pi_[1] <- 0.25
   true_pi_[2] <- 0.25
   true_pi_[3] <- 0.25
   true_pi_[4] <- 1 - sum(true_pi_[1:3])
   
-  ## The variance-covariance matrices of errors.
+  ## The variance-covariance matrices of errors ##
   true_sigma <- list()
   true_sigma[[1]] <- matrix(rep(0.5, 2^2), nrow=2) + 0.5*diag(2)
   true_sigma[[2]] <- matrix(rep(0.5, 2^2), nrow=2) + 0.5*diag(2)
   true_sigma[[3]] <- matrix(rep(0.5, 2^2), nrow=2) + 0.5*diag(2)
   true_sigma[[4]] <- matrix(rep(0.5, 2^2), nrow=2) + 0.5*diag(2)
   
-  ## The coefficients matrices of each components.
+  ## The coefficients matrices of each components ##
   true_Bk <- list()
   true_Bk[[1]] <- matrix(c(-5, 2,
                             2,-4,
