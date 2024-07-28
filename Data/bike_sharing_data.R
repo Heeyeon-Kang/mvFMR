@@ -16,7 +16,7 @@
 
 # After data cleansing, there exists 17397 samples.
 
-bike_sharing_dat <- read.csv(file="./data/bike_sharing.csv")
+bike_sharing_dat <- read.csv(file="./Data/bike_sharing.csv")
 
 rm_col <- c(1,2,4,5,6,8,17)
 bike_dat <- bike_sharing_dat[,-rm_col]
