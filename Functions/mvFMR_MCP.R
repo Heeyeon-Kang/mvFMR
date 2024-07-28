@@ -5,7 +5,7 @@
 ####                        Author: Heeyeon Kang                          ####
 ####                      Supervisor: Sunyoung Shin                       ####
 ##############################################################################
-####     R-code of fitting the data using mvFMR-MCP with unknown K       ####
+####      R-code of fitting the data using mvFMR-MCP with unknown K       ####
 ####                      presented in Section 5.3.                       ####
 ##############################################################################
 
