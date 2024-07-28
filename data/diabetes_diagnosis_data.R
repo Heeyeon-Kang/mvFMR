@@ -16,7 +16,7 @@
 
 # After data cleansing, there exists 375 samples.
 
-diabetes_dat <- read.csv(file="./data/diabetes_diagnosis.csv")
+diabetes_dat <- read.csv(file="./Data/diabetes_diagnosis.csv")
 
 delete_columns <- c(1,7,12,15,16)
 diabetes_dat <- diabetes_dat[,-delete_columns]
