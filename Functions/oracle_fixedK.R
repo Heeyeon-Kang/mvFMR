@@ -18,7 +18,7 @@
 # Y <- data_generate_5.1.1(12345)$Y
 # oracle_fit(X, Y)
 
-source("./code/functions.R")
+source("./Functions/functions.R")
 
 ## Assume that K=2 is known ##
 oracle_fit <- function(X, Y){
