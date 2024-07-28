@@ -26,7 +26,7 @@
 # true <- data_generate_5.1.1(12345)$true
 # flexmix_fit(true, cluster, X, Y)
 
-source("./code/functions.R")
+source("./Functions/functions.R")
 
 ## Assume that K=2 is known ##
 flexmix_fit <- function(true, cluster, X, Y){
