@@ -13,7 +13,7 @@
 # presented in Section 5.1 and 5.2.
 
 ### Example ###
-# source("./data/simulation_data.R)
+# source("./Data/simulation_data.R)
 # X <- data_generate_5.1.1(12345)$X
 # Y <- data_generate_5.1.1(12345)$Y
 # oracle_fit(X, Y)
