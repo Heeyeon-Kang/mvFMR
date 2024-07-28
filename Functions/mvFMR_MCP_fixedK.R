@@ -18,7 +18,7 @@
 # Y <- data_generate_5.1.1(12345)$Y
 # mvFMR_MCP_fixedK_fit(X, Y, 5)
 
-source("./code/functions.R")
+source("./Functions/functions.R")
 
 ## Assume that K=2 is known ##
 mvFMR_MCP_fixedK_fit <- function(X, Y, decimal=c("5","6")){
