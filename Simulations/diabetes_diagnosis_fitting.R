@@ -27,10 +27,10 @@ for(p in requiredPackages){
 }
 
 ## Data ##
-source("./data/diabetes_diagnosis_data.R")
+source("./Data/diabetes_diagnosis_data.R")
 
 ## Functions ##
-source("./code/functions.R")
+source("./Functions/functions.R")
 
 diabetes_diagnosis <- function(X, Y, K){
   
