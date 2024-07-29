@@ -15,8 +15,7 @@
 library(ggplot2)
 library(patchwork)
 
-source("./data/diabetes_diagnosis_data.R")
-#source("~/Desktop/FMRwithMultipleResponses/Data/diabetes_diagnosis_data.R")
+source("./Simulations/diabetes_diagnosis_data.R")
 
 ### Finding the number of clusters in k-means clustering ###
 wssplot <- function(data, nc = 15, seed = 1234) {
