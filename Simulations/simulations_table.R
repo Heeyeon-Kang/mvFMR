@@ -315,6 +315,6 @@ pred_ll <- function(l, n, output, K, w, density){
   return(pred_loglikelihood)
 }
 
-load("./Outputs/s1_table.rda")
-load("./Outputs/s2_table.rda")
-load("./Outputs/s3_table.rda")
+load("./Simulations/s1_table.rda")
+load("./Simulations/s2_table.rda")
+load("./Simulations/s3_table.rda")
