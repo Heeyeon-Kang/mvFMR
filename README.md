@@ -6,11 +6,14 @@ Electronic supplement to "Penalized estimation for a finite mixture of regressio
 
 
 The repository consists of the following folders and files:
+
 * Data
   * simulation_data.R: R-code of the functions generating the dataset using in Section 5.
   * diabetes_diagnosis_data.R: R-code of the process of refining the raw data, diabetes_diagnosis.csv, for using in Section 6.1.
   * bike_sharing_data.R: R-code of the process of refining the raw data, bike_sharing.csv, for using in Section 6.2.
-
+ 
+* Functions
+  * functions.R: 
 
 
 
