@@ -5,6 +5,9 @@ Electronic supplement to "Penalized estimation for a finite mixture of regressio
 
 
 
+The repository consists of the following folders:
+* Data
+  * simulation_data.R contains the functions generating the dataset using in Section 5.
 
 
 
