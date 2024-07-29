@@ -27,12 +27,9 @@
 
 library(ggplot2)
 
-load(file="./output/diabetes_diagnosis.rda")
-#load(file="~/Desktop/FMRwithMultipleResponses/Simulations/outputs/diabetes_diagnosis.rda")
-source("./data/diabetes_diagnosis_data.R")
-#source("~/Desktop/FMRwithMultipleResponses/Data/diabetes_diagnosis_data.R")
-source("./code/functions.R")
-#source("~/Desktop/FMRwithMultipleResponses/Functions/functions2.R")
+load(file="./Simulations/diabetes_diagnosis.rda")
+source("./Data/diabetes_diagnosis_data.R")
+source("./Functions/functions.R")
 
 optimal_K <- which.min(diabetes_diagnosis$BIC)
 optimal_output <- diabetes_diagnosis$output[[optimal_K]]
