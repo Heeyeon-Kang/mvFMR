@@ -25,9 +25,9 @@
 #             data point.
 # - BIC     : The modified BIC for K = 1, 2, 3, 4, 5, 6.
 
-load(file="./output/bike_sharing.rda")
-source("./data/bike_sharing_data.R")
-source("./code/functions.R")
+load(file="./Simulations/bike_sharing.rda")
+source("./Data/bike_sharing_data.R")
+source("./Functions/functions.R")
 
 optimal_K <- which.min(bike_sharing$BIC)
 optimal_output <- bike_sharing$output[[optimal_K]]
