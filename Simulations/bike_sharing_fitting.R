@@ -27,10 +27,10 @@ for(p in requiredPackages){
 }
 
 ## Data ##
-source("./data/bike_sharing_data.R")
+source("./Simulations/bike_sharing_data.R")
 
 ## Functions ##
-source("./code/functions.R")
+source("./Functions/functions.R")
 
 bike_sharing <- function(X, Y, K){
   
