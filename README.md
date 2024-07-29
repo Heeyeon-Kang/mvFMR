@@ -13,7 +13,20 @@ The repository consists of the following folders and files:
   * bike_sharing_data.R: R-code of the process of refining the raw data, bike_sharing.csv, for using in Section 6.2.
  
 * Functions
-  * functions.R: 
+  * functions.R: R-code of all functions for running EM-ADMM algorithm.
+  * mvFMR.R: R-code for fittting the simulation data using mvFMR presented in Section 5.3.
+  * mvFMR_fixedK.R: R-code for fitting the simulation data using mvFMR presented in Section 5.1, Section 5.2, and Section 5.3, assuming K is known.
+  * mvFMR_LASSO.R: R-code for fitting the simulation data using mvFMR-LASSO presented in Section 5.3.
+  * mvFMR_LASSO_fixedK.R: R-code for fitting the simulation data using mvFMR-LASSO presented in Section 5.1, Section 5.2, and Section 5.3, assuming K is known.
+  * mvFMR_SCAD.R: R-code for fitting the simulation data using mvFMR-SCAD presented in Section 5.3.
+  * mvFMR_SCAD_fixedK.R: R-code for fitting the simulation data using mvFMR-SCAD presented in Section 5.1, Section 5.2, and Section 5.3, assuming K is known.
+  * mvFMR_MCP.R: R-code for fitting the simulation data using mvFMR-MCP presented in Section 5.3.
+  * mvFMR_MCP_fixedK.R: R-code for fitting the simulation data using mvFMR-MCP presented in Section 5.1, Section 5.2, and Section 5.3, assuming K is known.
+  * flexmix_fixedK.R: R-code to fit the simulation data using the R-package "Flexmix" presented in Section 5.1 and Section 5.2, assuming K is known.
+  * oracle_fixedK.R: R-code to estimate the oracle estimator presented in Section 5.1 and Section 5.2 by fitting the simulation data, assuming K is known.
+
+* Outputs
+  *
 
 
 
