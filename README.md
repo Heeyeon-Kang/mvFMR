@@ -19,7 +19,7 @@ The repository consists of the following folders:
   * "flexmix_fixedK.R" contains the R-code for fitting the data using the R-package "Flexmix" presented in Section 5.1 and Section 5.2.
   * "oracle_fixedK.R" contains the R-code to estimate the oracle estimator presented in Section 5.1 and Section 5.2 by fitting the data.
 
-* Outputs: The results of simulation studies and real data analyses to reproduce the figures and tables presented in Section 5 and Section 6;
+* Simulations: The results of simulation studies and real data analyses to reproduce the figures and tables presented in Section 5 and Section 6;
   * "simulation_table.R" contains the functions for calculating TPR, FPR, MSE, and predictive log-likelihood loss.
   * "s1_table.rda", "s2_table.rda", and "s3_table.rda" are the rda files containing the contents of the tables in Section 5.1, Section 5.2, and Section 5.3, respectively.
   * "diabetes_diagnosis.rda" and "bike_sharing.rda" are rda files containing the results of the analysis using mvFMR-SCAD.
