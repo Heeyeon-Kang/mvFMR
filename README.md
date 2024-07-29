@@ -8,6 +8,6 @@ To run the R-code, it is recommended to load the R project "FMRwithMultipleRespo
 
 The repository consists of the following folders:
 * Data: R-code for generating or refining the data used in Section 5 and Section 6.
-  * "simulation_data.R" contains the functions generating the dataset using in Section 5. 
+  * "simulation_data.R" contains the functions generating the dataset using in Section 5. "diabetes_diagnosis_data.R" and "bike_sharing_data.R" are R-codes of the process of refining the raw data, "diabetes_diagnosis.csv" and "bike_sharing.csv", respectively.
 * Functions: R-code of all functions for running the EM-ADMM algorithm and R-code for fitting simulation data using each method.
 * Outputs: The results of simulation studies and real data analyses to reproduce the figures and tables presented in Section 5 and Section 6
