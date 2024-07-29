@@ -1,7 +1,6 @@
 mvFMR
 ==========================
-Electronic supplement to "Penalized estimation for a finite mixture of regression models"
-======
+# Electronic supplement to "Penalized estimation for a finite mixture of regression models"
 
 
 The repository consists of the following folders:
