@@ -1,7 +1,14 @@
 mvFMR
-================
+==========================
 
-Supplement to "Penalized estimation for a finite mixture of regression models".
+Electronic supplement to "Penalized estimation for a finite mixture of regression models".
+
+
+
+
+
+
+
 
 We provide this template as a default structure that we (the JASA Associate Editors of Reproducibility) think could be
 useful for many projects, either as is or with modifications by authors.
