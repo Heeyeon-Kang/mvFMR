@@ -10,12 +10,13 @@
 ##############################################################################
 
 # The following R-code fits the simulation data using mvFMR with fixed K
-# presented in Section 5.1, 5.2, and 5.3.
+# presented in Section 5.1, Section 5.2, and Section 5.3.
 
 ### Example ###
+# source("./Data/simulation_seed_number.R")
 # source("./Data/simulation_data.R)
-# X <- data_generate_5.1.1(12345)$X
-# Y <- data_generate_5.1.1(12345)$Y
+# X <- data_generate_5.1.1(seed_number_5.1.1[1])$X
+# Y <- data_generate_5.1.1(seed_number_5.1.1[1])$Y
 # mvFMR_fixedK_fit(X, Y, 5)
 
 source("./Functions/functions.R")
