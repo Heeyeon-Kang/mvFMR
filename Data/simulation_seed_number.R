@@ -19,6 +19,7 @@
 # Since we generated 500 independent simulations for each model, the following
 # R-code contains 500 seed numbers for each model.
 
+
 ### Section 5.1 : model 1 ###
 set.seed(2)
 seed_number_5.1.1 <- sample(1:1e5, 500, replace=FALSE)
