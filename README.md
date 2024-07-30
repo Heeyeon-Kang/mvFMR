@@ -5,8 +5,8 @@
 
 This repository has the R-code to do the analyses and reproduce the figures and tables in Sections 5 and Section 6 of the manuscript and the supplementary material.
 
-To run the R-code, it is recommended to load the R project "FMRwithMultipleResponses.Rproj", as all paths are set relative to this directory.
 All code was written in a laptop with R version 4.3.1 and run on a Linux Cluster with R version 4.1.2.
+To run the R-code, it is recommended to load the R project "FMRwithMultipleResponses.Rproj", as all paths are set relative to this directory.
 
 The repository consists of the following folders:
 
