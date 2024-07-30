@@ -9,7 +9,7 @@
 ##############################################################################
 
 # The following R-code generates the data of simulations presented in 
-# Section 5.1, 5.2, and 5.3.
+# Section 5.1, Section 5.2, and Section 5.3.
 
 # We set the seed numbers to fix all the dataset used in our simulations.
 # The seed numbers of Section 5.1, Section 5.2, and Section 5.3 are 
