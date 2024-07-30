@@ -10,7 +10,7 @@
 ##############################################################################
 
 # The following R-code fits the simulation data using the R-package "Flexmix" 
-# presented in Section 5.1 and 5.2.
+# presented in Section 5.1 and Section 5.2.
 
 # When fitting using flexmix, there is a problem with cluster shifting 
 # compared to the true clusters, making it difficult to calculate 
