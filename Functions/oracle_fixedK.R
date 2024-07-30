@@ -6,16 +6,17 @@
 ####                      Supervisor: Sunyoung Shin                       ####
 ##############################################################################
 ####    R-code of fitting the data and estimating the oracle estimator    ####
-####                   presented in Section 5.1 and 5.2.                  ####
+####              presented in Section 5.1 and Section 5.2.               ####
 ##############################################################################
 
 # The following R-code fits the simulation data and estimates the oracle estimator
-# presented in Section 5.1 and 5.2.
+# presented in Section 5.1 and Section 5.2.
 
 ### Example ###
+# source("./Data/simulation_seed_number.R)
 # source("./Data/simulation_data.R)
-# X <- data_generate_5.1.1(12345)$X
-# Y <- data_generate_5.1.1(12345)$Y
+# X <- data_generate_5.1.1(seed_number_5.1.1[1])$X
+# Y <- data_generate_5.1.1(seed_number_5.1.1[1])$Y
 # oracle_fit(X, Y)
 
 source("./Functions/functions.R")
