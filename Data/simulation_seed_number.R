@@ -21,34 +21,34 @@
 
 ### Section 5.1 : model 1 ###
 set.seed(2)
-seed_number_5.1.1 <- sample(1:1e5, 500, replace = FALSE)
+seed_number_5.1.1 <- sample(1:1e5, 500, replace=FALSE)
 
 ### Section 5.1 : model 2 ###
 set.seed(5)
-seed_number_5.1.2 <- sample(1:1e5, 500, replace = FALSE)
+seed_number_5.1.2 <- sample(1:1e5, 500, replace=FALSE)
 
 ### Section 5.1 : model 3 ###
 set.seed(10)
-seed_number_5.1.3 <- sample(1:1e5, 500, replace = FALSE)
+seed_number_5.1.3 <- sample(1:1e5, 500, replace=FALSE)
 
 
 ### Section 5.2 : model 1 ###
 set.seed(210)
-seed_number_5.2.1 <- sample(1:1e5, 500, replace = FALSE)
+seed_number_5.2.1 <- sample(1:1e5, 500, replace=FALSE)
 
 ### Section 5.2 : model 2 ###
 set.seed(220)
-seed_number_5.2.2 <- sample(1:1e5, 500, replace = FALSE)
+seed_number_5.2.2 <- sample(1:1e5, 500, replace=FALSE)
 
 ### Section 5.2 : model 3 ###
 set.seed(230)
-seed_number_5.2.3 <- sample(1:1e5, 500, replace = FALSE)
+seed_number_5.2.3 <- sample(1:1e5, 500, replace=FALSE)
 
 
 ### Section 5.3 : model 1 ###
 set.seed(302)
-seed_number_5.3.1 <- sample(1:1e5, 500, replace = FALSE)
+seed_number_5.3.1 <- sample(1:1e5, 500, replace=FALSE)
 
 ### Section 5.3 : model 2 ###
 set.seed(304)
-seed_number_5.3.2 <- sample(1:1e5, 500, replace = FALSE)
+seed_number_5.3.2 <- sample(1:1e5, 500, replace=FALSE)
