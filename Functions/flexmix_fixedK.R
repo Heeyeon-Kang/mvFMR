@@ -19,11 +19,12 @@
 # especially, true coefficient matrices, and clusters.
 
 ### Example ###
+# The seed number we used in the model 1 in Section 5.1 is 2.
 # source("./Data/simulation_data.R)
-# X <- data_generate_5.1.1(12345)$X
-# Y <- data_generate_5.1.1(12345)$Y
-# cluster <- data_generate_5.1.1(12345)$cluster
-# true <- data_generate_5.1.1(12345)$true
+# X <- data_generate_5.1.1(2)$X
+# Y <- data_generate_5.1.1(2)$Y
+# cluster <- data_generate_5.1.1(2)$cluster
+# true <- data_generate_5.1.1(2)$true
 # flexmix_fit(true, cluster, X, Y)
 
 source("./Functions/functions.R")
