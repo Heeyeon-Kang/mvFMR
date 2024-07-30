@@ -13,10 +13,10 @@
 # presented in Section 5.3.
 
 ### Example ###
-# The seed number we used in the model 1 in Section 5.3 is 302.
+# source("./Data/simulation_seed_number.R")
 # source("./Data/simulation_data.R)
-# X <- data_generate_5.3.1(302)$X
-# Y <- data_generate_5.3.1(302)$Y
+# X <- data_generate_5.3.1(seed_number_5.3.1[1])$X
+# Y <- data_generate_5.3.1(seed_number_5.3.1[1])$Y
 # mvFMR_LASSO_fit(X, Y, 5)
 
 source("./Functions/functions.R")
