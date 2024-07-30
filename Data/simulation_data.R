@@ -12,8 +12,8 @@
 # Section 5.1, 5.2, and 5.3.
 
 # We set the seed numbers to fix all the dataset used in our simulations.
-# The seed numbers of Section 5.1, 5.2, 5.3 are 
-# 2,5,10 / 210,220,230 / 302,304,respectively.
+# The seed numbers of Section 5.1, Section 5.2, and Section 5.3 are 
+# 2,5,10 / 210,220,230 / 302,304, respectively, for each model.
 
 # The data size is written in parentheses in the comments. 
 # For generating 1000 or 2000 samples, please replace the nrow(X_data) with 1000 or 2000.
