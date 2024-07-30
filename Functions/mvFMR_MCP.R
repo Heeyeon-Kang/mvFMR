@@ -13,10 +13,14 @@
 # presented in Section 5.3.
 
 ### Example ###
+# source("./Data/simulation_seed_number.R")
 # source("./Data/simulation_data.R)
-# X <- data_generate_5.3.1(12345)$X
-# Y <- data_generate_5.3.1(12345)$Y
+# X <- data_generate_5.3.1(seed_number_5.3.1[1])$X
+# Y <- data_generate_5.3.1(seed_number_5.3.1[1])$Y
 # mvFMR_MCP_fit(X, Y, 5)
+
+# source("./Data/simulation_seed_number.R")
+
 
 source("./Functions/functions.R")
 
