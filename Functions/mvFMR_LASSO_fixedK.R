@@ -10,7 +10,7 @@
 ##############################################################################
 
 # The following R-code fits the simulation data using mvFMR-LASSO with fixed K
-# presented in Section 5.1, 5.2, and 5.3.
+# presented in Section 5.1, Section 5.2, and Section 5.3.
 
 ### Example ###
 # source("./Data/simulation_seed_number.R")
