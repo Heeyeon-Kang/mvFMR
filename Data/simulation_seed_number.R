@@ -16,7 +16,7 @@
 # The seed numbers of Section 5.1, Section 5.2, and Section 5.3 are 
 # 2,5,10 / 210,220,230 / 302,304, respectively, for each model.
 
-# Since we generated 500 independent simulations for each model, the following
+# Since we generated 500 independent simulations for each model,the following
 # R-code contains 500 seed numbers for each model.
 
 
