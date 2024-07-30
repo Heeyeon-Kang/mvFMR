@@ -19,9 +19,6 @@
 # Y <- data_generate_5.3.1(seed_number_5.3.1[1])$Y
 # mvFMR_MCP_fit(X, Y, 5)
 
-# source("./Data/simulation_seed_number.R")
-
-
 source("./Functions/functions.R")
 
 ## Assume that K is unknown ##
