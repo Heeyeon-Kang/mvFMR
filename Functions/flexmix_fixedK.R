@@ -6,7 +6,7 @@
 ####                      Supervisor: Sunyoung Shin                       ####
 ##############################################################################
 ####       R-code of fitting the data using the R-package "Flexmix"       ####
-####                   presented in Section 5.1 and 5.2.                  ####
+####               presented in Section 5.1 and Section 5.2.              ####
 ##############################################################################
 
 # The following R-code fits the simulation data using the R-package "Flexmix" 
