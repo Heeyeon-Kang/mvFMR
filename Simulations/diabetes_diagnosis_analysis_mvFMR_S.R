@@ -96,15 +96,17 @@ for(i in 1:length(group)){
 mvFMR_S_plot <- ggplot(data=dat_Y, aes(x=glucose, y=HbA1c, group=group)) +
   geom_point(aes(shape=group, color=group, size=group)) + 
   ggthemes::theme_few() + 
-  theme(legend.title = element_blank())  +
-  labs(x = "glucose", y = "HbA1c", title = "mvFMR-SCAD") +
+  theme(legend.title=element_blank())  +
+  labs(x="glucose", y="HbA1c", title="mvFMR-SCAD") +
   scale_color_manual(values=c("tomato2","deepskyblue2","black","green3")) +
   scale_size_manual(values=c(2,2,2,2)) +
   scale_shape_manual(values=c(16,17,15,8)) +
-  theme(axis.title.x = element_text(size=13),
-        axis.title.y = element_text(size=13)) + 
-  theme(plot.title = element_text(hjust = 0.5)) +
-  theme(legend.text = element_text(size=13))
+  theme(axis.title.x=element_text(size=13),
+        axis.title.y=element_text(size=13)) + 
+  theme(plot.title=element_text(hjust=0.5)) +
+  theme(legend.text=element_text(size=13)) +
+  scale_x_continuous(breaks=c(100,126,250,400)) +
+  scale_y_continuous(breaks=c(4,5.7,6.5,10,16))
 
 # The diabetes diagnosis criteria by American Diabetes Association(ADA) #
 mvFMR_S_plot2 <- mvFMR_S_plot + geom_hline(yintercept=6.5, linetype="dashed", size=0.6, col="grey50") + 
