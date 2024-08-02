@@ -45,7 +45,7 @@ k_means_plot <- ggplot(data=dat_Y, aes(x=glucose, y=HbA1c, group=group)) +
   scale_shape_manual(values=c(16,17,15,8)) +
   theme(axis.title.x=element_text(size=13),
         axis.title.y=element_text(size=13)) + 
-  theme(plot.title=element_text(hjust = 0.5)) +
+  theme(plot.title=element_text(hjust=0.5)) +
   theme(legend.text=element_text(size=13)) +
   scale_x_continuous(breaks=c(100,126,250,400)) +
   scale_y_continuous(breaks=c(4,5.7,6.5,10,16))
