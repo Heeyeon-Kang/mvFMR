@@ -43,9 +43,6 @@ source("./Data/diabetes_diagnosis_data.R")
 ## Functions ##
 source("./Functions/functions.R")
 
-
-sapply(diabetes_diagnosis$BIC, min)
-
 ## Optimal K = 4 ##
 optimal_K <- which.min(diabetes_diagnosis$BIC)
 optimal_output <- diabetes_diagnosis$output[[optimal_K]]
@@ -57,6 +54,7 @@ analysis_K <- 3
 analysis_output <- diabetes_diagnosis$output[[analysis_K]]
 analysis_w <- diabetes_diagnosis$w[[analysis_K]]
 analysis_density <- diabetes_diagnosis$density[[analysis_K]]
+
 
 ### Generating the Table 7 ###
 # Round down to five decimal places #
