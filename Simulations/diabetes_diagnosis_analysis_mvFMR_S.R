@@ -31,11 +31,18 @@
 # is not significantly different from K=4.
 
 
+## Package ##
 library(ggplot2)
 
+## The result file ##
 load(file="./Simulations/diabetes_diagnosis.rda")
+
+## Data ##
 source("./Data/diabetes_diagnosis_data.R")
+
+## Functions ##
 source("./Functions/functions.R")
+
 
 sapply(diabetes_diagnosis$BIC, min)
 
