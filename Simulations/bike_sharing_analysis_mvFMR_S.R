@@ -35,7 +35,7 @@ source("./Data/bike_sharing_data.R")
 ## Functions ##
 source("./Functions/functions.R")
 
-## Optimal K is 5 ##
+## Optimal K = 5 ##
 optimal_K <- which.min(bike_sharing$BIC)
 optimal_output <- bike_sharing$output[[optimal_K]]
 optimal_w <- bike_sharing$w[[optimal_K]]
