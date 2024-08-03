@@ -25,6 +25,7 @@
 #             data point.
 # - BIC     : The modified BIC for K = 1, 2, 3, 4, 5, 6.
 
+
 load(file="./Simulations/bike_sharing.rda")
 source("./Data/bike_sharing_data.R")
 source("./Functions/functions.R")
