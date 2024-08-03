@@ -12,6 +12,7 @@ The repository consists of the following folders:
 
 * Data: R-code for generating or refining the data used in Section 5 and Section 6;
   * "simulation_seed_number.R" contains the seed numbers generating the data of simulations in Section 5.
+  * ${\color{red} \textsf{simulation\_seed_number.R}}$
   * ***simulation_data.R*** contains the functions generating the dataset using in Section 5.
   * ***diabetes_diagnosis_data.R*** and ***bike_sharing_data.R*** are the R-codes of the process of refining the raw data, "diabetes_diagnosis.csv" and "bike_sharing.csv", respectively.
  
