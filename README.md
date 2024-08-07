@@ -29,7 +29,7 @@ The repository consists of the following folders:
   * ***diabetes_diagnosis_analysis_mvFMR_S.R*** and ***bike_sharing_analysis_mvFMR_S.R*** contain the R-codes for analyzing the results of the data and generating Table 7 and Table 8 presented in Section 6.1 and Section 6.2.
   * ***diabetes_diagnosis_analysis_k-means.R*** contains the R-codes for analyzing the result of the diabetes diagnosis data by using k-means clustering and generating Figure 1 presented in Section 6.1.
   * ***diabetes_diagnosis_fitting.R*** and ***bike_sharing_fitting.R*** contain the R-codes for fitting the data presented in Section 6.1 and Section 6.2 using parallel computing.
-  * ***s1_table.rda***, ***s2_table.rda***, and ***s3_table.rda*** are the rda files containing the contents of the tables in Section 5.1, Section 5.2, and Section 5.3, respectively.
+  * ***s1_table.rda***, ***s2_table.rda***, and ***s3_table.rda*** are the rda files containing the contents of the tables in Section 5.1, Section 5.2, and Section 5.3, which are Table 2, Table 4, and Table 6, respectively.
   * ***diabetes_diagnosis.rda*** and ***bike_sharing.rda*** are rda files containing the results of the analysis using mvFMR-SCAD.
 
     
